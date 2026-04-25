@@ -1,0 +1,215 @@
+.profile-container{
+    max-width: 10000px;
+    margin: auto;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 3px;
+    font-family: 'Segoe UI', sans-serif, Arial;;
+    background-color:f;
+
+}
+body{
+    background-image:url(../images/content_ST3_img/background.jpg);
+}
+h1{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(254, 254, 255);
+    background-color: rgb(10, 10, 121);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card{
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    background-color: #f8f8f8df;
+    border-radius: 45px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    box-shadow: 0 4px 8px rgba(40, 38, 38, 0.354);
+    transition: transform 0.3s, box-shadow 0.3s
+    
+}
+.card:hover{
+  transform: translateY();
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.p{
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgb(38, 38, 143);
+
+}
+.secion_one img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 4px solid #ffffff;
+}
+.content-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+h2{
+    font-size: 30px;
+    line-height: 1.4;
+    color: rgb(10, 10, 121);
+}
+.internal-nav{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: navy;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.internal-nav a{
+    color: #ffffff;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: rgb(56, 56, 137);
+    padding: 12px;
+    line-height: 1.4;
+    text-decoration: none;
+    transition: background-color 0.3s
+}
+.internal-nav a:hover{
+    background-color: rgb(65, 72, 203);
+}
+.go-top{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: navy;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+.go-top:hover{
+    background: rgb(35, 93, 240);
+}
+.footer {
+    background-color: #0A4EBE; /* deep blue */
+    color: white;
+    padding: 3rem 1rem 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+  
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2rem;
+}
+  
+  /* Logo section */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    flex: 1;
+}
+  
+.footer-logo-img {
+    width: 40px;
+    height: auto;
+}
+  
+.footer-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+  
+  /* Center links */
+.footer-links {
+    flex: 2;
+    text-align: center;
+}
+  
+.footer-main-nav {
+    margin-bottom: 1rem;
+}
+  
+.footer-main-nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+  
+.footer-main-nav a:hover {
+    color: #00AEEF;
+}
+  
+.footer-grouped-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+  
+.footer-column h4 {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+  
+.footer-column a {
+    display: block;
+    margin-bottom: 0.3rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.3s;
+}
+  
+.footer-column a:hover {
+    color: #00AEEF;
+}
+  
+  /* Social icons */
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+    justify-content: flex-end;
+}
+  
+.footer-social img {
+    width: 24px;
+    height: auto;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s;
+}
+  
+.footer-social img:hover {
+    transform: scale(1.2);
+}
+  
+  /* Copyright line */
+.footer-copy {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+

@@ -1,0 +1,252 @@
+/*Nav bar*/
+.top {
+    width: 100%; /* Ensure the top section spans the full width */
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Ensure the header spans the full width */
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%; /* Ensure the wrapper spans the full width */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    width: 100%; /* Ensure the header spans the full width */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    margin-right: 10px;
+    width: 100px;
+    box-shadow:20px ;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 25px;
+    padding: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid navy;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.search-input:focus {
+    outline: none;
+    border: none;
+}
+
+.search-button {
+    border: none;
+    color: navy;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.navbar {
+    font-family: 'Segoe UI', sans-serif, Arial;
+    background-color: navy;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Ensure the navbar spans the full width */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: lightblue;
+}
+
+.navbar ul li a.active {
+    background-color: lightblue;
+    font-weight: 600;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    color:navy;
+    cursor: pointer;
+}
+
+.close-btn {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.title{
+    color: navy;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Footer */
+footer {
+  background-color: #0A4EBE; /* deep blue */
+  color: white;
+  padding: 3rem 1rem 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+.pageeditor{
+  color: #ffffff;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+/* Logo section */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex: 1;
+}
+
+.footer-logo-img {
+  width: 40px;
+  height: auto;
+}
+
+.footer-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Center links */
+.footer-links {
+  flex: 2;
+  text-align: center;
+}
+
+.footer-main-nav {
+  margin-bottom: 1rem;
+}
+
+.footer-main-nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.footer-main-nav a:hover {
+  color: #00AEEF;
+}
+
+.footer-grouped-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-column h4 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.footer-column a {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+
+.footer-column a:hover {
+  color: #00AEEF;
+}
+
+/* Social icons */
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.footer-social img {
+  width: 24px;
+  height: auto;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s;
+}
+
+.footer-social img:hover {
+  transform: scale(1.2);
+}
+
+/* Copyright line */
+.footer-copy {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}

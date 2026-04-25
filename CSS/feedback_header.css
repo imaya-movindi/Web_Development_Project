@@ -1,0 +1,134 @@
+header {
+    padding: 0;
+    margin: 0;
+    width: 1545px; /* Ensure the header spans the full width */
+    background-color: white;
+    margin-top: 269px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: flex;
+}
+
+
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%; /* Ensure the wrapper spans the full width */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    width: 100%; /* Ensure the header spans the full width */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 25px;
+    padding: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid navy;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.search-input:focus {
+    outline: none;
+    border: none;
+}
+
+.search-button {
+    border: none;
+    color: navy;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: navy;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Ensure the navbar spans the full width */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: lightblue;
+}
+
+.navbar ul li a.active {
+    background-color: lightblue;
+    font-weight: 600;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    color:navy;
+    cursor: pointer;
+}
+
+.close-btn {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.title{
+    color: navy;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
