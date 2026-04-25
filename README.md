@@ -1,2 +1,2 @@
 # Web_Development_Project
-AcademicEdge is a responsive educational website developed using HTML, CSS, and JavaScript. It provides a structured and user-frien
+AcademicEdge is a responsive educational website developed using HTML, CSS, and JavaScript. It provides a structured and user-friendly interface for accessing educational content and resources. The website includes multiple pages such as home, feedback, team, and content sections. Interactive features were implemented using JavaScript to improve user experience and engagement. The design is fully responsive, ensuring compatibility across different devices and screen sizes. This project demonstrates skills in front-end web development, UI design, and team collaboration.
